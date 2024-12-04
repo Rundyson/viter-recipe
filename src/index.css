@@ -233,6 +233,12 @@ input::-webkit-inner-spin-button {
   .input-photo-wrap span.error-show{
     @apply -top-4;
   }
+  .wrapper-instruction h5{
+    @apply mb-4 py-1 border-b border-gray-600 border-opacity-30 text-lg;
+  }
+  .wrapper-instruction p {
+    @apply mb-5 text-sm;
+  }
 
 }
 
@@ -299,9 +305,11 @@ input::-webkit-inner-spin-button {
 }
 
 .grid-container-top {
-  min-height: 1200px;
+
   grid-template-areas:
   'a c f'
   'a d f'
   'b d e';
 }
+
+ 
