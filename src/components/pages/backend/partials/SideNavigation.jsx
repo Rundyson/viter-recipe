@@ -1,7 +1,7 @@
+import { imgPath } from '@/components/helpers/functions-general';
 import { ChartBarStacked, Clapperboard, HandPlatter, LayoutDashboard, Megaphone, Star, UtensilsCrossed } from 'lucide-react'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { imgPath } from '../../../helpers/functions-general';
 
 const SideNavigation = ({menu}) => {
 

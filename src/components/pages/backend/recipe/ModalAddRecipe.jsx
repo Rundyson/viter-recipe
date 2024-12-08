@@ -273,14 +273,14 @@ const ModalAddRecipe = ({ itemEdit }) => {
 
 
                     <div className="instruction">
-                      <div className="input-wrap">
-                        <h3>Description</h3>
-                        <InputTextArea
-                          label="Description"
-                          name="recipe_description"
-                          className="overflow-y-auto custom-scroll p-2 !h-[120px] outline-none  w-full rounded-md bg-primary text-body border border-line resize-none mb-5"
-                        />
-                      </div>
+                        <div className="input-wrap">
+                          <h3>Description</h3>
+                          <InputTextArea
+                            label="Description"
+                            name="recipe_description"
+                            className="overflow-y-auto custom-scroll p-2 !h-[120px] outline-none  w-full rounded-md bg-primary text-body border border-line resize-none mb-5"
+                          />
+                        </div>
                       <div className="input-wrap">
                         <h3>Instruction</h3>
                         <InputTextArea
